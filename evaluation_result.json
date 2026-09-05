@@ -1,0 +1,20 @@
+{
+  "label": "SYNTHETIC BENCHMARK \u2014 NOT PRODUCTION DATA",
+  "total_cases": 500,
+  "total_revenue_at_risk": 6831825.33,
+  "baseline_recovered": 2596093.63,
+  "kraft_ai_recovered": 3210957.91,
+  "baseline_recovery_rate": 38.0,
+  "kraft_ai_recovery_rate": 47.0,
+  "uplift": 23.68,
+  "total_intervention_cost": 983.55,
+  "net_revenue_recovered": 3209974.36,
+  "cost_per_successful_recovery": 4.19,
+  "policy_violations": 0,
+  "unsafe_actions_avoided": 71,
+  "stopped_cases": 18,
+  "escalated_cases": 43,
+  "average_interventions_per_case": 1.16,
+  "revenue_recovered_per_intervention": 5536.13,
+  "recovery_efficiency": 46.93
+}
