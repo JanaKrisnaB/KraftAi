@@ -64,10 +64,10 @@ pip install -r backend/requirements.txt
 cp .env.example .env # optional: add legitimate server-side credentials
 PYTHONPATH=. python data/generate_cases.py
 PYTHONPATH=. python evaluation.py
-PYTHONPATH=. uvicorn backend.app.api.main:app --reload
+python -m uvicorn backend.app.api.main:app --reload
 ```
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Do not commit `.env`.
+Run the commands from the extracted project root (the folder containing `evaluation.py`). This entry point resolves project paths automatically, including on Windows. Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Do not commit `.env`.
 
 ## API documentation
 
